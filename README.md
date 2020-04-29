@@ -40,14 +40,12 @@ Date
 * Description: Date of report in format YYYY-MM-DD, contained within the first table title, Statewide Available Bed Tracking for COVID-19
 * Values: Date
 * Missing values reason: This value should never be missing
-o Total non-missing: xxx
 
 Region
 * Column: B
 * Description: Michigan Healthcare Coalition Regions
 * Values: String
 * Missing values reason: This value should never be missing
-o Total non-missing: xxx
 Unique values: 1, 2S, 2N, 3, 5, 6, 7, 8
 Note: See REGIONS section above for what counties are classified into each region
 
@@ -57,7 +55,6 @@ Bed_TOT
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Total Beds" between 2020-04-02 through 2020-04-15 ("Total Bed Capicity" on 2020-04-05), "Total Number of Hospital Beds" on 2020-04-16 onward
 
 CriticalCare
@@ -66,7 +63,6 @@ CriticalCare
 * Values: Integer
 * DateRange: 2020-04-02 through 2020-04-03
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Possibly reorganized into the COVID-19 Metrics table as "# In Critical Care" (see variable Inpatients_Crit)
 
 ED
@@ -75,7 +71,6 @@ ED
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Emergency Dept." on 2020-04-02 and 2020-04-03, then as "Emergency Department" on 2020-04-04 until 2020-04-15, and then as "Hospital Inpatient Beds" from 2020-04-16 onward
 
 ED_Used
@@ -92,7 +87,6 @@ ICU
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Adult ICU" on 2020-04-02 until 2020-04-15, and then as "ICU Beds" from 2020-04-16 onward
 
 ICU_Used
@@ -101,7 +95,6 @@ ICU_Used
 * Values: Integer
 * DateRange: 2020-04-16 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 BurnCare
 * Column: I
@@ -109,7 +102,6 @@ BurnCare
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Burn Care" on 2020-04-02 through 2020-04-15, and then as "Available Burn Care" from 2020-04-16 onward
 
 MedSurg
@@ -118,7 +110,6 @@ MedSurg
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Adult Medical/Surgical Unit" on 2020-04-02 and 2020-04-03, then as "Adult Med Surg"/"Adult MedSurg" on 2020-04-04 until 2020-04-15, and then as "Available Adult MedSurg" from 2020-04-16 onward
 
 Obstetric
@@ -127,7 +118,6 @@ Obstetric
 * Values: Integer
 * DateRange: 2020-04-02 through 2020-04-15
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 OR
 * Column: L
@@ -135,7 +125,6 @@ OR
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Operating Room" on 2020-04-02 through 2020-04-15, and then as "Available Operating Room" from 2020-04-16 onward
 
 Pediatric
@@ -144,7 +133,6 @@ Pediatric
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xx
 Note: Appears as "Pediatric" on 2020-04-02 through 2020-04-15, and then as "Available Pediatric" from 2020-04-16 onward
 
 PediatricICU
@@ -153,7 +141,6 @@ PediatricICU
 * Values: Integer
 * DateRange: 2020-04-02 through 2020-04-15
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Psychiatric
 * Column: O
@@ -161,7 +148,6 @@ Psychiatric
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Psychiatric" on 2020-04-02 through 2020-04-15, and then as "Available Psychiatric" from 2020-04-16 onward
 
 Morgue_Avail
@@ -170,7 +156,6 @@ Morgue_Avail
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Morgue_TOT
 * Column: Q
@@ -178,7 +163,6 @@ Morgue_TOT
 * Values: Integer
 * DateRange: 2020-04-16 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 NegPress_Avail
 * Column: R
@@ -186,7 +170,6 @@ NegPress_Avail
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 NegPress_TOT
 * Column: S
@@ -194,7 +177,6 @@ NegPress_TOT
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Bed Capacity: Neg Pressure Isolation" on 2020-04-02 through 2020-04-14, and as "Negative Pressure Isolation Total" 2020-04-15 onward
 
 MechVent_Used
@@ -203,7 +185,6 @@ MechVent_Used
 * Values: Integer
 * DateRange: 2020-04-16 through 2020-04-18
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 MechVent
 * Column: U
@@ -211,7 +192,6 @@ MechVent
 * Values: Integer
 * DateRange: 2020-04-16 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Possibly a replacement for Statewide Available Bed Tracking for COVID-19 table, variable "Total Ventilators" (see variable Vent_TOT), because MechVent is only reported when Vent_TOT stops being reported
 
 Vent_Avail
@@ -220,7 +200,6 @@ Vent_Avail
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "Ventilators Not in Use" from 2020-04-02 to 2020-04-10, then as "Available Ventilators" on 2020-04-11 onwards
 
 Vent_TOT
@@ -229,7 +208,6 @@ Vent_TOT
 * Values: Integer
 * DateRange: 2020-04-04 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Inpatients
 * Column: X
@@ -237,7 +215,6 @@ Inpatients
 * Values: Integer
 * DateRange: 2020-04-08 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "COVID Inpatients" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# of Inpatients" in the COVID-19 Metrics table on 2020-04-09 onwards
 
 Inpatients_Crit
@@ -246,7 +223,6 @@ Inpatients_Crit
 * Values: Integer
 * DateRange: 2020-04-08 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "COVID Inpatients in Critical Care" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# in Critical Care" in the COVID-19 Metrics table on 2020-04-09 onwards
 
 Inpatients_Vent
@@ -255,7 +231,6 @@ Inpatients_Vent
 * Values: Integer
 * DateRange: 2020-04-08 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "COVID Inpatients on Ventilators" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# on Ventilators" in the COVID-19 Metrics table on 2020-04-09 onwards
 
 Inpatients_Dis
@@ -264,7 +239,6 @@ Inpatients_Dis
 * Values: Integer
 * DateRange: 2020-04-08 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 Note: Appears as "COVID ED Discharges" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# of ED Discharges" in the COVID-19 Metrics table on 2020-04-09 onwards
 
 Elasto_Filters
@@ -273,7 +247,6 @@ Elasto_Filters
 * Values: Integer
 * DateRange: 2020-04-11 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Elasto_Resp
 * Column: AC
@@ -281,7 +254,6 @@ Elasto_Resp
 * Values: Integer
 * DateRange: 2020-04-11 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 PAPR_Batteries
 * Column: AD
@@ -289,7 +261,6 @@ PAPR_Batteries
 * Values: Integer
 * DateRange: 2020-04-11 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 PAPR_Filters
 * Column: AE
@@ -297,7 +268,6 @@ PAPR_Filters
 * Values: Integer
 * DateRange: 2020-04-11 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 PAPRs
 * Column: AF
@@ -305,7 +275,6 @@ PAPRs
 * Values: Integer
 * DateRange: 2020-04-11 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 CAPRs
 * Column: AG
@@ -313,7 +282,6 @@ CAPRs
 * Values: Integer
 * DateRange: 2020-04-11 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Gloves
 * Column: AH
@@ -321,7 +289,6 @@ Gloves
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Coveralls
 * Column: AI
@@ -329,7 +296,6 @@ Coveralls
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Isolation_Gowns
 * Column: AJ
@@ -337,7 +303,6 @@ Isolation_Gowns
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Surgical_Gowns
 * Column: AK
@@ -345,7 +310,6 @@ Surgical_Gowns
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Surgical_Masks
 * Column: AL
@@ -353,7 +317,6 @@ Surgical_Masks
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 N95_Masks
 * Column: AM
@@ -361,7 +324,6 @@ N95_Masks
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Shields
 * Column: AN
@@ -369,7 +331,6 @@ Shields
 * Values: Integer
 * DateRange: 2020-04-03 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Goggles
 * Column: AO
@@ -377,34 +338,27 @@ Goggles
 * Values: Integer
 * DateRange: 2020-04-03 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Reporting_Bed
 * Column: AP
 * Description: Total response rate for the Statewide Available Bed Tracking for COVID-19 table
 * Values: Percentage
-* ValuesRange: xx% to xx%
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Reporting_PPE
 * Column: AQ
 * Description: Total response rate for the Statewide Available PPE Tracking for COVID-19 table
 * Values: Percentage
-* ValuesRange: xx% to xx%
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Notes
 * Column: AR
-* Description: Additinal notes provided underneath the tables
+* Description: Additional notes provided underneath the tables
 * Values: String
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 Link
 * Column: AS
 * Description: Link to the archival version of the tabular data, through the Wayback Machine Internet Archive
 * Values: URL
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
