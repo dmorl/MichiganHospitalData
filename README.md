@@ -45,8 +45,8 @@ Region
 * Column: B
 * Description: Michigan Healthcare Coalition Regions
 * Values: String
-* Missing values reason: This value should never be missing
-Unique values: 1, 2S, 2N, 3, 5, 6, 7, 8
+* Missing values reason: This value should never be missing <br />
+Unique values: 1, 2S, 2N, 3, 5, 6, 7, 8 <br />
 Note: See REGIONS section above for what counties are classified into each region
 
 Bed_TOT
@@ -54,7 +54,7 @@ Bed_TOT
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Total Number of Hospital Beds" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Total Beds" between 2020-04-02 through 2020-04-15 ("Total Bed Capicity" on 2020-04-05), "Total Number of Hospital Beds" on 2020-04-16 onward
 
 CriticalCare
@@ -62,7 +62,7 @@ CriticalCare
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Critical Care"
 * Values: Integer
 * DateRange: 2020-04-02 through 2020-04-03
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Possibly reorganized into the COVID-19 Metrics table as "# In Critical Care" (see variable Inpatients_Crit)
 
 ED
@@ -70,7 +70,7 @@ ED
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Hospital Inpatient Beds" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Emergency Dept." on 2020-04-02 and 2020-04-03, then as "Emergency Department" on 2020-04-04 until 2020-04-15, and then as "Hospital Inpatient Beds" from 2020-04-16 onward
 
 ED_Used
@@ -79,14 +79,13 @@ ED_Used
 * Values: Integer
 * DateRange: 2020-04-16 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
-o Total non-missing: xxx
 
 ICU
 * Column: G
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "ICU Beds" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Adult ICU" on 2020-04-02 until 2020-04-15, and then as "ICU Beds" from 2020-04-16 onward
 
 ICU_Used
@@ -101,7 +100,7 @@ BurnCare
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Available Burn Care" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Burn Care" on 2020-04-02 through 2020-04-15, and then as "Available Burn Care" from 2020-04-16 onward
 
 MedSurg
@@ -109,7 +108,7 @@ MedSurg
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Available Adult MedSurg" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Adult Medical/Surgical Unit" on 2020-04-02 and 2020-04-03, then as "Adult Med Surg"/"Adult MedSurg" on 2020-04-04 until 2020-04-15, and then as "Available Adult MedSurg" from 2020-04-16 onward
 
 Obstetric
@@ -124,7 +123,7 @@ OR
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Available Operating Room" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Operating Room" on 2020-04-02 through 2020-04-15, and then as "Available Operating Room" from 2020-04-16 onward
 
 Pediatric
@@ -132,7 +131,7 @@ Pediatric
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Available Pediatric" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Pediatric" on 2020-04-02 through 2020-04-15, and then as "Available Pediatric" from 2020-04-16 onward
 
 PediatricICU
@@ -147,7 +146,7 @@ Psychiatric
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Available Psychiatric" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Psychiatric" on 2020-04-02 through 2020-04-15, and then as "Available Psychiatric" from 2020-04-16 onward
 
 Morgue_Avail
@@ -176,7 +175,7 @@ NegPress_TOT
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Negative Pressure Isolation Total" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Bed Capacity: Neg Pressure Isolation" on 2020-04-02 through 2020-04-14, and as "Negative Pressure Isolation Total" 2020-04-15 onward
 
 MechVent_Used
@@ -191,7 +190,7 @@ MechVent
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Mechanical Ventilators"
 * Values: Integer
 * DateRange: 2020-04-16 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Possibly a replacement for Statewide Available Bed Tracking for COVID-19 table, variable "Total Ventilators" (see variable Vent_TOT), because MechVent is only reported when Vent_TOT stops being reported
 
 Vent_Avail
@@ -199,7 +198,7 @@ Vent_Avail
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Available Ventilators" (see Note)
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "Ventilators Not in Use" from 2020-04-02 to 2020-04-10, then as "Available Ventilators" on 2020-04-11 onwards
 
 Vent_TOT
@@ -214,7 +213,7 @@ Inpatients
 * Description: Data from the COVID-19 Metrics table, variable "# of Inpatients" (see Note)
 * Values: Integer
 * DateRange: 2020-04-08 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "COVID Inpatients" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# of Inpatients" in the COVID-19 Metrics table on 2020-04-09 onwards
 
 Inpatients_Crit
@@ -222,7 +221,7 @@ Inpatients_Crit
 * Description: Data from the COVID-19 Metrics table, variable "# in Critical Care" (see Note)
 * Values: Integer
 * DateRange: 2020-04-08 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "COVID Inpatients in Critical Care" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# in Critical Care" in the COVID-19 Metrics table on 2020-04-09 onwards
 
 Inpatients_Vent
@@ -230,7 +229,7 @@ Inpatients_Vent
 * Description: Data from the COVID-19 Metrics table, variable "# on Ventilators" (see Note)
 * Values: Integer
 * DateRange: 2020-04-08 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "COVID Inpatients on Ventilators" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# on Ventilators" in the COVID-19 Metrics table on 2020-04-09 onwards
 
 Inpatients_Dis
@@ -238,7 +237,7 @@ Inpatients_Dis
 * Description: Data from the COVID-19 Metrics table, variable "# of ED Discharges" (see Note)
 * Values: Integer
 * DateRange: 2020-04-08 through xxxx-xx-xx
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "COVID ED Discharges" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# of ED Discharges" in the COVID-19 Metrics table on 2020-04-09 onwards
 
 Elasto_Filters
