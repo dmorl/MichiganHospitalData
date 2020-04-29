@@ -3,7 +3,9 @@ Michigan Hospital Overview Tracking
 -------------------------------------------
 
 Author: Daria Orlowska
+
 Contact: daria.orlowska@wmich.edu
+
 Last Updated: 2020-04-28
 
 -------------------------------------------
@@ -20,9 +22,13 @@ Last Updated: 2020-04-28
 ## MichiganOverview_HospitalTracking.xlsx
 
 Source: Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Data About Places", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html
+
 Description: Tabular data of Statewide Available PPE and Bed Tracking
+
 Date range: 2020-04-02 through xxxx-xx-xx
+
 Missing dates: 2020-04-07
+
 Author notes: Tables were released without variable descriptions. If Author felt confident about a new variable being a name change, tracking remained in same column and is noted in the "Note" field. When Author was uncertain if newly introduced variables were a name change or just a new way of tracking, a new column was added in the spreadsheet.
 
 ---
@@ -30,15 +36,23 @@ Author notes: Tables were released without variable descriptions. If Author felt
 ### REGIONS
 
 Description: Data is aggregated using the Healthcare Coalition Regions: https://www.michigan.gov/mdhhs/0,5885,7-339-71548_54783_54826_56171-237197--,00.html#hcc
+
 Author notes: Counties provided below. The City of Detroit is contained within Wayne county. Region #4 does not exist.
 
 1 – Clinton, Eaton, Gratiot, Hillsdale, Ingham, Jackson, Lenawee, Livingston, Shiawassee
+
 2S – Monroe, Washtenaw, Wayne
+
 2N - Macomb, Oakland, St Clair
+
 3 - Saginaw, Alcona, Iosco, Ogemaw, Arenac, Gladwin, Midland, Bay, Genesee, Tuscola, Lapeer, Sanilac, Huron
+
 5 - Allegan, Barry, Calhoun, Branch, St. Joseph, Cass, Berrien, Van Buren, Kalamazoo
+
 6 - Clare, Ionia, Isabella, Kent, Lake, Mason, Mecosta, Montcalm, Muskegon, Newaygo, Oceana, Osceola, Ottawa
+
 7 - Manistee, Wexford, Missaukee, Roscommon, Benzie, Leelanau, Grand Traverse, Kalkaska, Crawford, Oscoda, Antrim, Otsego, Montmorency, Alpena, Presque Ilse, Cheboygan, Emmet, Charlevoix
+
 8 - Chippewa, Mackinac, Luce, Schoolcraft, Delta, Alger, Marquette, Dickinson, Menominee, Baraga, Iron, Gogebic, Ontonagon, Houghton, Keweenaw
 
 ---
