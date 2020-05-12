@@ -4,14 +4,14 @@
 
 Author: Daria Orlowska <br />
 Contact: daria.orlowska@wmich.edu <br />
-Last Updated: 2020-05-08 22:57 <br />
+Last Updated: 2020-05-09 22:12 <br />
 
 -------------------------------------------
 
 Source: Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Data About Places", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 Description: Tabular data of Statewide Available PPE and Bed Tracking <br />
-Date range: 2020-04-02 through 2020-05-08 <br />
-Missing dates: 2020-04-07, 2020-05-04
+Date range: 2020-04-02 through 2020-05-11 <br />
+Missing dates: 2020-04-07, 2020-05-04, 2020-05-09
 
 Author notes: Tables were released without variable descriptions. If Author felt confident about a new variable being a name change, tracking remained in same column and is noted in the "Note" field. When Author was uncertain if newly introduced variables were a name change or just a new way of tracking, a new column was added in the spreadsheet.
 
