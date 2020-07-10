@@ -4,13 +4,13 @@
 
 Author: Daria Orlowska <br />
 Contact: daria.orlowska@wmich.edu <br />
-Last Updated: 2020-07-09 18:45 <br />
+Last Updated: 2020-07-10 18:17 <br />
 
 -------------------------------------------
 
 Source: Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Data About Places", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 Description: Tabular data of Statewide Available PPE and Bed Tracking <br />
-Date range: 2020-04-02 through 2020-07-09 <br />
+Date range: 2020-04-02 through 2020-07-10 <br />
 Missing dates: 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03  <br />
 **NOTE: As of 2020-05-18, data on the website will now be updated Monday - Friday due to furloughs**
 
@@ -190,7 +190,7 @@ MechVent
 * Column: U
 * Description: Data from the Statewide Available Bed Tracking for COVID-19 table, variable "Mechanical Ventilators"
 * Values: Integer
-* DateRange: 2020-04-16 through xxxx-xx-xx
+* DateRange: 2020-04-16 through 2020-04-26
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Possibly a replacement for Statewide Available Bed Tracking for COVID-19 table, variable "Total Ventilators" (see variable Vent_TOT), because MechVent is only reported when Vent_TOT stops being reported
 
