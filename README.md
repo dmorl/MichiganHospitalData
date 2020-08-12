@@ -4,18 +4,18 @@
 
 Author: Daria Orlowska <br />
 Contact: daria.orlowska@wmich.edu <br />
-Last Updated: 2020-08-11 10:56 <br />
+Last Updated: 2020-08-11 20:39 <br />
 
 -------------------------------------------
 
 Source: Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Data About Places", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 Description: Tabular data of Statewide Available PPE and Bed Tracking <br />
-Date range: 2020-04-02 through 2020-08-10 <br />
+Date range: 2020-04-02 through 2020-08-11 <br />
 Missing dates: 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07  <br />
 **NOTE: As of 2020-05-18, data on the website will now be updated Monday - Friday due to furloughs**
 
 Author notes: Tables were released without variable descriptions. If Author felt confident about a new variable being a name change, tracking remained in same column and is noted in the "Note" field. When Author was uncertain if newly introduced variables were a name change or just a new way of tracking, a new column was added in the spreadsheet.
-As of 2020-08-05, the first table "Statewide Available Bed Tracking for COVID-19" has changed names to "Statewide Hospital Capacity Report for COVID-19". The reintroduction, addition and omission of variables has lead to the structure of the dataset changing. As if 2020-08-06, the table Statewide Hospital Available PPE Tracking for COVID-19 has underwent reorganization, with some variables now being reported in aggregate.
+As of 2020-08-05, the first table "Statewide Available Bed Tracking for COVID-19" has changed names to "Statewide Hospital Capacity Report for COVID-19". The reintroduction, addition and omission of variables has lead to the structure of the dataset changing. As if 2020-08-06, the table Statewide Hospital Available PPE Tracking for COVID-19 has underwent reorganization, with some variables now being reported in aggregate. As of 2020-08-11, the table COVID-19 Metrics has underwent reorganization.
 
 ---
 
@@ -252,47 +252,75 @@ Vent_TOT
 * DateRange: 2020-04-04 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report
 
-Inpatients
+NumInpatients
 * Column: AD
 * Description: Data from the COVID-19 Metrics table, variable "# of Inpatients" (see Note)
 * Values: Integer
-* DateRange: 2020-04-08 through xxxx-xx-xx
+* DateRange: 2020-04-08 through 2020-08-03
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "COVID Inpatients" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# of Inpatients" in the COVID-19 Metrics table on 2020-04-09 onwards
 
-Inpatients_Crit
+NumInpatients_Crit
 * Column: AE
 * Description: Data from the COVID-19 Metrics table, variable "# in Critical Care" (see Note)
 * Values: Integer
-* DateRange: 2020-04-08 through xxxx-xx-xx
+* DateRange: 2020-04-08 through 2020-08-03
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "COVID Inpatients in Critical Care" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# in Critical Care" in the COVID-19 Metrics table on 2020-04-09 onwards
 
-Inpatients_Vent
+NumInpatients_Vent
 * Column: AF
 * Description: Data from the COVID-19 Metrics table, variable "# on Ventilators" (see Note)
 * Values: Integer
-* DateRange: 2020-04-08 through xxxx-xx-xx
+* DateRange: 2020-04-08 through 2020-08-03
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "COVID Inpatients on Ventilators" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# on Ventilators" in the COVID-19 Metrics table on 2020-04-09 onwards
 
-Inpatients_Dis
+NumInpatients_Dis
 * Column: AG
 * Description: Data from the COVID-19 Metrics table, variable "# of ED Discharges" (see Note)
 * Values: Integer
-* DateRange: 2020-04-08 through xxxx-xx-xx
+* DateRange: 2020-04-08 through 2020-08-03
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appears as "COVID ED Discharges" in the COVID-19 Capacity Metrics table on 2020-04-08, then as "# of ED Discharges" in the COVID-19 Metrics table on 2020-04-09 onwards
 
-Elasto_Filters
+AdultCases_TOT
 * Column: AH
+* Description: Data from the COVID-19 Metrics table, variable "Total Adult Suspected/Confirmed"
+* Values: Integer
+* DateRange: 2020-08-11 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+
+VentedCases
+* Column: AI
+* Description: Data from the COVID-19 Metrics table, variable "Hospitalized and Vented COVID"
+* Values: Integer
+* DateRange: 2020-08-11 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+
+AdultCases_ICU
+* Column: AJ
+* Description: Data from the COVID-19 Metrics table, variable "Adult ICU Confirmed/Suspected COVID"
+* Values: Integer
+* DateRange: 2020-08-11 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+
+EDCases_Prev
+* Column: AK
+* Description: Data from the COVID-19 Metrics table, variable "Prev Day COVID Related ED Visits"
+* Values: Integer
+* DateRange: 2020-08-11 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+
+Elasto_Filters
+* Column: AL
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Elastomeric Respirator Filters"
 * Values: Integer
 * DateRange: 2020-04-11 through 2020-08-03
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Elasto_Resp
-* Column: AI
+* Column: AM
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Elastomeric Respirator"
 * Values: Integer
 * DateRange: 2020-04-11 through 2020-08-03
@@ -300,21 +328,21 @@ Elasto_Resp
 Note: This variable may now be reported in the aggregate variable "Respirators_TOT"
 
 PAPR_Batteries
-* Column: AJ
+* Column: AN
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "PAPR Batteries"
 * Values: Integer
 * DateRange: 2020-04-11 through 2020-08-03
 * Missing values reason: This value may be missing if it is not provided in the report
 
 PAPR_Filters
-* Column: AK
+* Column: AO
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "PAPR Filters"
 * Values: Integer
 * DateRange: 2020-04-11 through 2020-08-03
 * Missing values reason: This value may be missing if it is not provided in the report
 
 PAPRs
-* Column: AL
+* Column: AP
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "PAPRs"
 * Values: Integer
 * DateRange: 2020-04-11 through 2020-08-03
@@ -322,7 +350,7 @@ PAPRs
 Note: This variable is now reported in the aggregate variable "Respirators_TOT"
 
 CAPRs
-* Column: AM
+* Column: AQ
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "CAPRs"
 * Values: Integer
 * DateRange: 2020-04-11 through 2020-08-03
@@ -330,7 +358,7 @@ CAPRs
 Note: This variable may now be reported in the aggregate variable "EyeProtect_TOT"
 
 Respirators_TOT
-* Column: AN
+* Column: AR
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "PAPR/Other Respirators"
 * Values: Integer
 * DateRange: 2020-08-06 through xxxx-xx-xx
@@ -338,7 +366,7 @@ Respirators_TOT
 Note: This variable may now aggregate previously reported variables "Elasto_Resp" and "PAPRs"
 
 Gloves
-* Column: AO
+* Column: AS
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Exam Gloves (single)"
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
@@ -346,7 +374,7 @@ Gloves
 Note: Appeared as "Gloves" from 2020-04-02 through 2020-08-03, "Exam Gloves (single)" from 2020-08-06 onwards
 
 Coveralls
-* Column: AP
+* Column: AT
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Coveralls"
 * Values: Integer
 * DateRange: 2020-04-02 through 2020-08-03
@@ -354,7 +382,7 @@ Coveralls
 Note: This variable may now be reported either in the aggregate variable "Gowns_TOT" or "GownsReuse_TOT"
 
 Isolation_Gowns
-* Column: AQ
+* Column: AU
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Surgical Isolation Gowns"
 * Values: Integer
 * DateRange: 2020-04-02 through 2020-08-03
@@ -362,7 +390,7 @@ Isolation_Gowns
 Note: This variable may now be reported either in the aggregate variable "Gowns_TOT" or "GownsReuse_TOT"
 
 Surgical_Gowns
-* Column: AR
+* Column: AV
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Surgical Gowns"
 * Values: Integer
 * DateRange: 2020-04-02 through 2020-08-03
@@ -370,7 +398,7 @@ Surgical_Gowns
 Note: This variable may now be reported either in the aggregate variable "Gowns_TOT" or "GownsReuse_TOT"
 
 Surgical_Masks
-* Column: AS
+* Column: AW
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Surgical Mask"
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
@@ -378,7 +406,7 @@ Surgical_Masks
 Note: Appeared as "Surgical Masks Facemasks" from 2020-04-02 through 2020-08-03, "Surgical Mask" from 2020-08-06 onwards
 
 N95_Masks
-* Column: AT
+* Column: AX
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "N95 Masks"
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
@@ -386,7 +414,7 @@ N95_Masks
 Note: Appeared as "N95 Respirator Masks" from 2020-04-02 through 2020-08-03, "N95 Masks" from 2020-08-06 onwards
 
 Shields
-* Column: AU
+* Column: AY
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Face Shields"
 * Values: Integer
 * DateRange: 2020-04-03 through 2020-08-03
@@ -394,7 +422,7 @@ Shields
 Note: This variable may now be reported in the aggregate variable "EyeProtect_TOT"
 
 Goggles
-* Column: AV
+* Column: AZ
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Goggles"
 * Values: Integer
 * DateRange: 2020-04-03 through 2020-08-03
@@ -402,7 +430,7 @@ Goggles
 Note: This variable may now be reported in the aggregate variable "EyeProtect_TOT"
 
 EyeProtect_TOT
-* Column: AW
+* Column: BA
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Eye Protection"
 * Values: Integer
 * DateRange: 2020-08-06 through xxxx-xx-xx
@@ -410,7 +438,7 @@ EyeProtect_TOT
 Note: This variable may now aggregate previously reported variables "CAPRs", "Shields", and "Goggles"
 
 Gowns_TOT
-* Column: AX
+* Column: BB
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Gowns"
 * Values: Integer
 * DateRange: 2020-08-06 through xxxx-xx-xx
@@ -418,7 +446,7 @@ Gowns_TOT
 Note: This variable may now aggregate previously reported variables "Coveralls", "Isolation_Gowns", and "Surgical_Gowns"
 
 GownsReuse_TOT
-* Column: AY
+* Column: BC
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Launderable Gowns"
 * Values: Integer
 * DateRange: 2020-08-06 through xxxx-xx-xx
@@ -426,25 +454,25 @@ GownsReuse_TOT
 Note: This variable may now aggregate previously reported variables "Coveralls", "Isolation_Gowns", and "Surgical_Gowns"
 
 Reporting_Capacity
-* Column: AZ
+* Column: BD
 * Description: Total response rate for the Statewide Hospital Capacity Report for COVID-19 table
 * Values: Percentage
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Reporting_PPE
-* Column: BA
+* Column: BE
 * Description: Total response rate for the Statewide Available PPE Tracking for COVID-19 table
 * Values: Percentage
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Notes
-* Column: BB
+* Column: BF
 * Description: Additional notes provided underneath the tables
 * Values: String
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Link
-* Column: BC
+* Column: BG
 * Description: Link to the archival version of the tabular data, through the Wayback Machine Internet Archive
 * Values: URL
 * Missing values reason: This value may be missing if it is not provided in the report
