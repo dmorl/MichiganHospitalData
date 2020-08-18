@@ -1,21 +1,42 @@
-## Michigan Hospital Overview Tracking
+# Michigan Hospital Overview Tracking
 
 -------------------------------------------
 
-Author: Daria Orlowska <br />
-Contact: daria.orlowska@wmich.edu <br />
-Last Updated: 2020-08-16 13:50 <br />
+**Author:** Daria Orlowska <br />
+**Contact:** daria.orlowska@wmich.edu <br />
+**Last Updated:** 2020-08-17 21:50 <br />
 
 -------------------------------------------
 
-Source: Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Data About Places", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
-Description: Tabular data of Statewide Available PPE and Bed Tracking <br />
-Date range: 2020-04-02 through 2020-08-14 <br />
-Missing dates: 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07  <br />
+## Spreadsheet Overviews
+
+### MichiganOverview_HospitalTracking.csv
+
+**Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Data About Places", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
+**Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
+**Date range:** 2020-04-02 through 2020-08-17 <br />
+**Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07  <br />
 **NOTE: As of 2020-05-18, data on the website will now be updated Monday - Friday due to furloughs**
 
-Author notes: Tables were released without variable descriptions. If Author felt confident about a new variable being a name change, tracking remained in same column and is noted in the "Note" field. When Author was uncertain if newly introduced variables were a name change or just a new way of tracking, a new column was added in the spreadsheet.
+**Author notes:** Tables were released without variable descriptions. If Author felt confident about a new variable being a name change, tracking remained in same column and is noted in the "Note" field. When Author was uncertain if newly introduced variables were a name change or just a new way of tracking, a new column was added in the spreadsheet.
 As of 2020-08-05, the first table "Statewide Available Bed Tracking for COVID-19" has changed names to "Statewide Hospital Capacity Report for COVID-19". The reintroduction, addition and omission of variables has lead to the structure of the dataset changing. As if 2020-08-06, the table Statewide Hospital Available PPE Tracking for COVID-19 has underwent reorganization, with some variables now being reported in aggregate. As of 2020-08-11, the table COVID-19 Metrics has underwent reorganization.
+
+### MichiganOverview_HospitalTracking_PatientCensus.csv
+
+**Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Data About Places", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
+**Description:** Totals from the table "Patient Census", contained within Statewide Available PPE and Bed Tracking <br />
+**Date range:** 2020-04-23 through 2020-08-17 <br />
+
+**Website notes:** This information has been compiled by the Michigan Health & Hospital Association (MHA) on behalf of the Michigan Department
+of Health & Human Services (MDHHS). The data is from the state of Michigan's EMResource data system. Hospitals are required
+to enter data into EMResource. The data reflects the status in the hospital or health system from the previous 48 hour period.
+The information is aggregated by health system for those hospitals that are part of a health system. This is because systems are
+centrally tracking and distributing personal protection equipment (PPE) amongst their various facilities and looking at patient
+surge and load from a system perspective. Non-system hospitals are identified as individual hospitals.
+The data reflects the status in health systems and hospitals 48 hours prior to the time that the data was posted to this website.
+https://public.tableau.com/profile/mhapublic#!/vizhome/COVIDPublicDashboard/PleaseRead
+
+**Author notes:** This information is not being updated on a regular schedule
 
 ---
 
@@ -35,7 +56,9 @@ Author notes: Counties provided below. The City of Detroit is contained within W
 
 ---
 
-### VARIABLES
+## Spreadsheet Variables
+
+### MichiganOverview_HospitalTracking.csv
 
 Date
 * Column: A
@@ -475,4 +498,41 @@ Link
 * Column: BG
 * Description: Link to the archival version of the tabular data, through the Wayback Machine Internet Archive
 * Values: URL
-* Missing values reason: This value may be missing if it is not provided in the report
+* Missing values reason: This value may be missing if the Wayback Machine was unresponsive
+
+### MichiganOverview_HospitalTracking_PatientCensus.csv
+
+Date
+* Column: A
+* Description: Date of report in format YYYY-MM-DD, contained within the first table title, Statewide Hospital Capacity Report for COVID-19
+* Values: Date
+* Missing values reason: This value should never be missing
+
+COVID_Patients
+* Column: B
+* Description: Data from the Patient Census table, variable "COVID-19 Patients" (see Note)
+* Values: Integer
+* DateRange: 2020-04-23 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Website Note: Confirmed positive patients, as well as patients who are currently pending and under investigation (PUI). This includes COVID-19 patients in the ICU 
+
+COVID_ICUPatients
+* Column: C
+* Description: Data from the Patient Census table, variable "COVID-19 Patients in ICU"
+* Values: Integer
+* DateRange: 2020-04-23 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Website Note: Confirmed postive patients and suspected patients in intensive care unit (ICU)
+
+Bed_Occupancy
+* Column: D
+* Description: Data from the Patient Census table, variable "Bed Occupancy %"
+* Values: Percentage
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Website Note: The percentage of staffed inpatient beds occupied by any patient regardless of COVID-19 status. This includes surge or overlow beds
+
+Link
+* Column: E
+* Description: Link to the archival version of the tabular data, through the Wayback Machine Internet Archive
+* Values: URL
+* Missing values reason: This value may be missing if the Wayback Machine was unresponsive
