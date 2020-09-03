@@ -4,7 +4,7 @@
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2020-09-01 22:39 <br />
+**Last Updated:** 2020-09-03 9:55 <br />
 
 -------------------------------------------
 
@@ -14,7 +14,7 @@
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Data About Places", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-02 through 2020-09-01 <br />
+**Date range:** 2020-04-02 through 2020-09-02 <br />
 **Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07  <br />
 **NOTE: As of 2020-05-18, data on the website will now be updated Monday - Friday due to furloughs**
 
