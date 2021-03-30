@@ -4,7 +4,7 @@
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2021-03-26 12:47 <br />
+**Last Updated:** 2021-03-30 13:37 <br />
 
 -------------------------------------------
 
@@ -14,7 +14,7 @@
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-02 through 2021-03-26 <br />
+**Date range:** 2020-04-02 through 2021-03-29 <br />
 **Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07, 2020-11-26, 2020-12-24, 2020-12-25, 2020-12-31, 2021-01-01 <br />
 **NOTE: As of 2020-05-18, data on the website will now be updated Monday - Friday due to furloughs** 
 
@@ -30,7 +30,7 @@ As of 2021-02-03, the table Statewide Hospital Available PPE Tracking for COVID-
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Totals from the table "Patient Census", contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-23 through 2021-03-25 <br />
+**Date range:** 2020-04-23 through 2021-03-29 <br />
 
 **Website notes:** This information has been compiled by the Michigan Health & Hospital Association (MHA) on behalf of the Michigan Department
 of Health & Human Services (MDHHS). The data is from the state of Michigan's EMResource data system. Hospitals are required
