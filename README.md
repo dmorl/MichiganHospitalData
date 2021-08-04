@@ -4,7 +4,7 @@
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2021-07-27 13:42 <br />
+**Last Updated:** 2021-08-04 12:10 <br />
 
 -------------------------------------------
 
@@ -14,14 +14,10 @@
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-02 through 2021-07-23 <br />
+**Date range:** 2020-04-02 through 2021-08-03 <br />
 **Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07, 2020-11-26, 2020-12-24, 2020-12-25, 2020-12-31, 2021-01-01 <br />
-**NOTE: As of 2020-05-18, data on the website will now be updated Monday - Friday due to furloughs** 
 
-**Website notes:** 2020-8-19: Changes have recently been made to the clinical variables shared on the MDHHS website. These changes were made to align with the new
-reporting requirements from the federal government. To better accommodate all users of this data, MDHHS is expanding the data provided
-from the previous clinical variables section to the information described in the new clinical variables section. Data users should carefully
-consider which variables meet their current or ongoing needs for information
+**Website notes:** 2020-8-19: Changes have recently been made to the clinical variables shared on the MDHHS website. These changes were made to align with the new reporting requirements from the federal government. To better accommodate all users of this data, MDHHS is expanding the data provided from the previous clinical variables section to the information described in the new clinical variables section. Data users should carefully consider which variables meet their current or ongoing needs for information
 **Author notes:** Tables were released without variable descriptions. If Author felt confident about a new variable being a name change, tracking remained in same column and is noted in the "Note" field. When Author was uncertain if newly introduced variables were a name change or just a new way of tracking, a new column was added in the spreadsheet.
 As of 2020-08-05, the first table "Statewide Available Bed Tracking for COVID-19" has changed names to "Statewide Hospital Capacity Report for COVID-19". The reintroduction, addition and omission of variables has lead to the structure of the dataset changing. As of 2020-08-06, the table Statewide Hospital Available PPE Tracking for COVID-19 has underwent reorganization, with some variables now being reported in aggregate. On 2020-08-11, and again on 2020-08-19, the table COVID-19 Metrics has underwent reorganization.
 As of 2021-02-03, the table Statewide Hospital Available PPE Tracking for COVID-19 will only be updated every Wednesday.
@@ -31,7 +27,7 @@ As of 2021-07-02, COVID data will be posted twice a week on Tuesdays and Fridays
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Totals from the table "Patient Census", contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-23 through 2021-07-19 <br />
+**Date range:** 2020-04-23 through 2021-08-03 <br />
 
 **Website notes:** This information has been compiled by the Michigan Health & Hospital Association (MHA) on behalf of the Michigan Department
 of Health & Human Services (MDHHS). The data is from the state of Michigan's EMResource data system. Hospitals are required
@@ -255,7 +251,7 @@ MechVent_Used
 * Column: Z
 * Description: Data from the Statewide Hospital Capacity Report for COVID-19 table, variable "Mechanical Ventilators in Use"
 * Values: Integer
-* DateRange: 2020-04-16 through 2020-04-18 and 2020-08-05 through xxxx-xx-xx
+* DateRange: 2020-04-16 through 2020-04-18 and 2020-08-05 through 2021-07-30
 * Missing values reason: This value may be missing if it is not provided in the report
 
 MechVent
@@ -278,7 +274,7 @@ Vent_TOT
 * Column: AC
 * Description: Data from the Statewide Hospital Capacity Report for COVID-19 table, variable "Total Ventilators"
 * Values: Integer
-* DateRange: 2020-04-04 through xxxx-xx-xx
+* DateRange: 2020-04-04 through 2021-07-30
 * Missing values reason: This value may be missing if it is not provided in the report
 
 NumInpatients
@@ -529,6 +525,7 @@ Reporting_Capacity
 * Column: BH
 * Description: Total response rate for the Statewide Hospital Capacity Report for COVID-19 table
 * Values: Percentage
+* DateRange: 2020-04-02 through 2021-07-30
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Reporting_PPE
