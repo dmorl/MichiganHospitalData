@@ -4,7 +4,7 @@
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2021-08-04 12:10 <br />
+**Last Updated:** 2021-08-12 17:24 <br />
 
 -------------------------------------------
 
@@ -14,7 +14,7 @@
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-02 through 2021-08-03 <br />
+**Date range:** 2020-04-02 through 2021-08-11 <br />
 **Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07, 2020-11-26, 2020-12-24, 2020-12-25, 2020-12-31, 2021-01-01 <br />
 
 **Website notes:** 2020-8-19: Changes have recently been made to the clinical variables shared on the MDHHS website. These changes were made to align with the new reporting requirements from the federal government. To better accommodate all users of this data, MDHHS is expanding the data provided from the previous clinical variables section to the information described in the new clinical variables section. Data users should carefully consider which variables meet their current or ongoing needs for information
@@ -22,12 +22,13 @@
 As of 2020-08-05, the first table "Statewide Available Bed Tracking for COVID-19" has changed names to "Statewide Hospital Capacity Report for COVID-19". The reintroduction, addition and omission of variables has lead to the structure of the dataset changing. As of 2020-08-06, the table Statewide Hospital Available PPE Tracking for COVID-19 has underwent reorganization, with some variables now being reported in aggregate. On 2020-08-11, and again on 2020-08-19, the table COVID-19 Metrics has underwent reorganization.
 As of 2021-02-03, the table Statewide Hospital Available PPE Tracking for COVID-19 will only be updated every Wednesday.
 As of 2021-07-02, COVID data will be posted twice a week on Tuesdays and Fridays.
+As of 2021-08-09, COVID case and testing data will be posted three times a week on Mondays, Wednesdays and Friday.
 
 ### MichiganOverview_HospitalTracking_PatientCensus.csv
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Totals from the table "Patient Census", contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-23 through 2021-08-03 <br />
+**Date range:** 2020-04-23 through 2021-08-09 <br />
 
 **Website notes:** This information has been compiled by the Michigan Health & Hospital Association (MHA) on behalf of the Michigan Department
 of Health & Human Services (MDHHS). The data is from the state of Michigan's EMResource data system. Hospitals are required
@@ -427,19 +428,19 @@ Note: This variable may now be reported in the aggregate variable "EyeProtect_TO
 
 Respirators_TOT
 * Column: AV
-* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "PAPR/Other Respirators"
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "PAPRS and Other Respirators On Hand"
 * Values: Integer
 * DateRange: 2020-08-06 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report <br />
-Note: This variable may now aggregate previously reported variables "Elasto_Resp" and "PAPRs"
+Note: This variable may now aggregate previously reported variables "Elasto_Resp" and "PAPRs". Appeared as "PAPR/Other Respirators" between 2020-08-06 through 2021-07-16, and "PAPRS and Other Respirators On Hand" from 2021-08-11 onwards
 
 Gloves
 * Column: AW
-* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Exam Gloves (single)"
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Exam Gloves (Single) On Hand"
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report <br />
-Note: Appeared as "Gloves" from 2020-04-02 through 2020-08-03, "Exam Gloves (single)" from 2020-08-06 onwards
+Note: Appeared as "Gloves" from 2020-04-02 through 2020-08-03, "Exam Gloves (single)" from 2020-08-06 through 2021-07-16, "Exam Gloves (Single) On Hand" from 2021-08-11 onwards
 
 Coveralls
 * Column: AX
@@ -467,19 +468,19 @@ Note: This variable may now be reported either in the aggregate variable "Gowns_
 
 Surgical_Masks
 * Column: BA
-* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Surgical Mask"
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Surgical Masks on Hand"
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report <br />
-Note: Appeared as "Surgical Masks Facemasks" from 2020-04-02 through 2020-08-03, "Surgical Mask" from 2020-08-06 onwards
+Note: Appeared as "Surgical Masks Facemasks" from 2020-04-02 through 2020-08-03, "Surgical Mask" from 2020-08-06 through 2021-07-16, and "Surgical Masks on Hand" from 2021-08-11 onwards
 
 N95_Masks
 * Column: BB
-* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "N95 Masks"
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "N95 Masks On Hand"
 * Values: Integer
 * DateRange: 2020-04-02 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report <br />
-Note: Appeared as "N95 Respirator Masks" from 2020-04-02 through 2020-08-03, "N95 Masks" from 2020-08-06 onwards
+Note: Appeared as "N95 Respirator Masks" from 2020-04-02 through 2020-08-03, "N95 Masks" from 2020-08-06 through 2021-07-16, and "N65 Masks On Hand" from 2021-08-11 onwards
 
 Shields
 * Column: BC
@@ -499,27 +500,27 @@ Note: This variable may now be reported in the aggregate variable "EyeProtect_TO
 
 EyeProtect_TOT
 * Column: BE
-* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Eye Protection"
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Eye Protection On Hand"
 * Values: Integer
 * DateRange: 2020-08-06 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report <br />
-Note: This variable may now aggregate previously reported variables "CAPRs", "Shields", and "Goggles"
+Note: This variable may now aggregate previously reported variables "CAPRs", "Shields", and "Goggles". Appeared as "Eye Protection" from 2020-08-06 through 2021-07-16, and "Eye Protection On Hand" from 2021-08-11 onwards
 
 Gowns_TOT
 * Column: BF
-* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Gowns"
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Gowns On Hand"
 * Values: Integer
 * DateRange: 2020-08-06 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report <br />
-Note: This variable may now aggregate previously reported variables "Coveralls", "Isolation_Gowns", and "Surgical_Gowns"
+Note: This variable may now aggregate previously reported variables "Coveralls", "Isolation_Gowns", and "Surgical_Gowns". Appeared as "Gowns" from 2021-08-06 through 2021-07-16, and as "Gowns On Hand" from 2021-08-11 onwards
 
 GownsReuse_TOT
 * Column: BG
-* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Launderable Gowns"
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Launderable Gowns On Hand"
 * Values: Integer
 * DateRange: 2020-08-06 through xxxx-xx-xx
 * Missing values reason: This value may be missing if it is not provided in the report <br />
-Note: This variable may now aggregate previously reported variables "Coveralls", "Isolation_Gowns", and "Surgical_Gowns"
+Note: This variable may now aggregate previously reported variables "Coveralls", "Isolation_Gowns", and "Surgical_Gowns". Appeared as "Launderable Gowns from 2020-08-06 through 2021-07-16, and "Launderable Gowns On Hand" from 2021-08-11 onwards
 
 Reporting_Capacity
 * Column: BH
@@ -532,6 +533,7 @@ Reporting_PPE
 * Column: BI
 * Description: Total response rate for the Statewide Available PPE Tracking for COVID-19 table
 * Values: Percentage
+* DateRange: 2020-04-02 through 2021-07-14
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Notes
