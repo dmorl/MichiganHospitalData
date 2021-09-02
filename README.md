@@ -4,7 +4,7 @@
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2021-08-31 9:59 <br />
+**Last Updated:** 2021-09-02 13:55 <br />
 
 -------------------------------------------
 
@@ -14,7 +14,7 @@
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-02 through 2021-08-30 <br />
+**Date range:** 2020-04-02 through 2021-09-01 <br />
 **Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07, 2020-11-26, 2020-12-24, 2020-12-25, 2020-12-31, 2021-01-01 <br />
 
 **Website notes:** 2020-8-19: Changes have recently been made to the clinical variables shared on the MDHHS website. These changes were made to align with the new reporting requirements from the federal government. To better accommodate all users of this data, MDHHS is expanding the data provided from the previous clinical variables section to the information described in the new clinical variables section. Data users should carefully consider which variables meet their current or ongoing needs for information
