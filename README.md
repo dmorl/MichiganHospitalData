@@ -4,7 +4,7 @@
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2022-02-15 10:57<br />
+**Last Updated:** 2022-02-21 15:47<br />
 
 -------------------------------------------
 
@@ -14,7 +14,7 @@
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
 **Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-02 through 2022-02-14 <br />
+**Date range:** 2020-04-02 through 2022-02-18 <br />
 **Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07, 2020-11-26, 2020-12-24, 2020-12-25, 2020-12-31, 2021-01-01, 2021-11-26 <br />
 
 **Website notes:** 2020-8-19: Changes have recently been made to the clinical variables shared on the MDHHS website. These changes were made to align with the new reporting requirements from the federal government. To better accommodate all users of this data, MDHHS is expanding the data provided from the previous clinical variables section to the information described in the new clinical variables section. Data users should carefully consider which variables meet their current or ongoing needs for information
@@ -430,7 +430,7 @@ Respirators_TOT
 * Column: AV
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "PAPRS and Other Respirators On Hand"
 * Values: Integer
-* DateRange: 2020-08-06 through xxxx-xx-xx
+* DateRange: 2020-08-06 through 2022-02-02
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: This variable may now aggregate previously reported variables "Elasto_Resp" and "PAPRs". Appeared as "PAPR/Other Respirators" between 2020-08-06 through 2021-07-16, and "PAPRS and Other Respirators On Hand" from 2021-08-11 onwards
 
@@ -438,7 +438,7 @@ Gloves
 * Column: AW
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Exam Gloves (Single) On Hand"
 * Values: Integer
-* DateRange: 2020-04-02 through xxxx-xx-xx
+* DateRange: 2020-04-02 through 2022-02-02
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appeared as "Gloves" from 2020-04-02 through 2020-08-03, "Exam Gloves (single)" from 2020-08-06 through 2021-07-16, "Exam Gloves (Single) On Hand" from 2021-08-11 onwards
 
@@ -470,7 +470,7 @@ Surgical_Masks
 * Column: BA
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Surgical Masks on Hand"
 * Values: Integer
-* DateRange: 2020-04-02 through xxxx-xx-xx
+* DateRange: 2020-04-02 through 2022-02-02
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appeared as "Surgical Masks Facemasks" from 2020-04-02 through 2020-08-03, "Surgical Mask" from 2020-08-06 through 2021-07-16, and "Surgical Masks on Hand" from 2021-08-11 onwards
 
@@ -478,7 +478,7 @@ N95_Masks
 * Column: BB
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "N95 Masks On Hand"
 * Values: Integer
-* DateRange: 2020-04-02 through xxxx-xx-xx
+* DateRange: 2020-04-02 through 2022-02-02
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: Appeared as "N95 Respirator Masks" from 2020-04-02 through 2020-08-03, "N95 Masks" from 2020-08-06 through 2021-07-16, and "N65 Masks On Hand" from 2021-08-11 onwards
 
@@ -502,7 +502,7 @@ EyeProtect_TOT
 * Column: BE
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Eye Protection On Hand"
 * Values: Integer
-* DateRange: 2020-08-06 through xxxx-xx-xx
+* DateRange: 2020-08-06 through 2022-02-02
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: This variable may now aggregate previously reported variables "CAPRs", "Shields", and "Goggles". Appeared as "Eye Protection" from 2020-08-06 through 2021-07-16, and "Eye Protection On Hand" from 2021-08-11 onwards
 
@@ -510,7 +510,7 @@ Gowns_TOT
 * Column: BF
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Gowns On Hand"
 * Values: Integer
-* DateRange: 2020-08-06 through xxxx-xx-xx
+* DateRange: 2020-08-06 through 2022-02-02
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: This variable may now aggregate previously reported variables "Coveralls", "Isolation_Gowns", and "Surgical_Gowns". Appeared as "Gowns" from 2021-08-06 through 2021-07-16, and as "Gowns On Hand" from 2021-08-11 onwards
 
@@ -518,32 +518,112 @@ GownsReuse_TOT
 * Column: BG
 * Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Launderable Gowns On Hand"
 * Values: Integer
-* DateRange: 2020-08-06 through xxxx-xx-xx
+* DateRange: 2020-08-06 through 2022-02-02
 * Missing values reason: This value may be missing if it is not provided in the report <br />
 Note: This variable may now aggregate previously reported variables "Coveralls", "Isolation_Gowns", and "Surgical_Gowns". Appeared as "Launderable Gowns from 2020-08-06 through 2021-07-16, and "Launderable Gowns On Hand" from 2021-08-11 onwards
 
-Reporting_Capacity
+Gloves_0_3
 * Column: BH
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Exam Gloves (Unable to obtain or less than 3 day supply)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have 3 days or less of exam gloves
+
+Gloves_4_7
+* Column: BI
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Exam Gloves (Duration less than 7 days)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have between 4 and 7 days of exam gloves
+
+N95_0_3
+* Column: BJ
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "N95 Masks (Unable to obtain or less than 3 day supply)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have 3 days or less of N95 masks
+
+N95_4_7
+* Column: BK
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "N95 Masks (Duration less than 7 days)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have between 4 and 7 days of N95 masks
+
+SurgicalMasks_0_3
+* Column: BL
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Surgical Masks (Unable to obtain or less than 3 day supply)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have 3 days or less of surgical masks
+
+SurgicalMasks_4_7
+* Column: BM
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Surgical Masks (Duration less than 7 days)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have between 4 and 7 days of surgical masks
+
+EyeProtect_0_3
+* Column: BN
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Eye Protection (Unable to obtain or less than 3 day supply)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have 3 days or less of eye protection (possibly face shields and goggles)
+
+EyeProtect_4_7
+* Column: BO
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Eye Protection (Duration less than 7 days)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have between 4 and 7 days of surgical masks (possibly face shields and goggles)
+
+Gowns_0_3
+* Column: BP
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Gowns (Unable to obtain or less than 3 day supply)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have 3 days or less of single-use gowns
+
+Gowns_4_7
+* Column: BQ
+* Description: Data from the Statewide Available PPE Tracking for COVID-19 table, variable "Single-Use Gown (Duration less than 7 days)"
+* Values: Integer
+* DateRange: 2022-02-09 through xxxx-xx-xx
+* Missing values reason: This value may be missing if it is not provided in the report <br />
+Note: This variable lists the amount of hospitals in a region that have between 4 and 7 days of single-use gowns
+
+Reporting_Capacity
+* Column: BR
 * Description: Total response rate for the Statewide Hospital Capacity Report for COVID-19 table
 * Values: Percentage
 * DateRange: 2020-04-02 through 2021-07-30
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Reporting_PPE
-* Column: BI
+* Column: BS
 * Description: Total response rate for the Statewide Available PPE Tracking for COVID-19 table
 * Values: Percentage
 * DateRange: 2020-04-02 through 2021-07-14
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Notes
-* Column: BJ
+* Column: BT
 * Description: Additional notes provided underneath the tables
 * Values: String
 * Missing values reason: This value may be missing if it is not provided in the report
 
 Link
-* Column: BK
+* Column: BU
 * Description: Link to the archival version of the tabular data, through the Wayback Machine Internet Archive
 * Values: URL
 * Missing values reason: This value may be missing if the Wayback Machine was unresponsive
