@@ -4,7 +4,7 @@
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2022-04-21 12:06 <br />
+**Last Updated:** 2022-04-26 10:38 <br />
 
 -------------------------------------------
 
@@ -12,9 +12,9 @@
 
 ### MichiganOverview_HospitalTracking.csv
 
-**Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
+**Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/stats/data-about-places/statewide-available-ppe-and-bed-tracking (previously under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html) <br />
 **Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-02 through 2022-04-20 <br />
+**Date range:** 2020-04-02 through 2022-04-25 <br />
 **Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07, 2020-11-26, 2020-12-24, 2020-12-25, 2020-12-31, 2021-01-01, 2021-11-26 <br />
 
 **Website notes:** 2020-8-19: Changes have recently been made to the clinical variables shared on the MDHHS website. These changes were made to align with the new reporting requirements from the federal government. To better accommodate all users of this data, MDHHS is expanding the data provided from the previous clinical variables section to the information described in the new clinical variables section. Data users should carefully consider which variables meet their current or ongoing needs for information
@@ -23,12 +23,13 @@ As of 2020-08-05, the first table "Statewide Available Bed Tracking for COVID-19
 As of 2021-02-03, the table Statewide Hospital Available PPE Tracking for COVID-19 will only be updated every Wednesday.
 As of 2021-07-02, COVID data will be posted twice a week on Tuesdays and Fridays.
 As of 2021-08-09, COVID case and testing data will be posted three times a week on Mondays, Wednesdays and Friday.
+As of 2022-04-22, the website url was updated to https://www.michigan.gov/coronavirus/stats/data-about-places/statewide-available-ppe-and-bed-tracking
 
 ### MichiganOverview_HospitalTracking_PatientCensus.csv
 
-**Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html <br />
+**Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/stats/data-about-places/statewide-available-ppe-and-bed-tracking (previously under the url  https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html) <br />
 **Description:** Totals from the table "Patient Census", contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-23 through 2022-04-18 <br />
+**Date range:** 2020-04-23 through 2022-04-25 <br />
 
 **Website notes:** This information has been compiled by the Michigan Health & Hospital Association (MHA) on behalf of the Michigan Department
 of Health & Human Services (MDHHS). The data is from the state of Michigan's EMResource data system. Hospitals are required
@@ -39,7 +40,8 @@ surge and load from a system perspective. Non-system hospitals are identified as
 The data reflects the status in health systems and hospitals 48 hours prior to the time that the data was posted to this website.
 https://public.tableau.com/profile/mhapublic#!/vizhome/COVIDPublicDashboard/PleaseRead
 
-**Author notes:** This information is not being updated on a regular schedule
+**Author notes:** This information is not being updated on a regular schedule. It is usually updated on Mondays.
+As of 2022-04-22, the website url was updated to https://www.michigan.gov/coronavirus/stats/data-about-places/statewide-available-ppe-and-bed-tracking
 
 ---
 
