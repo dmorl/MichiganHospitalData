@@ -4,17 +4,20 @@
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2023-04-20 14:06 <br />
+**Final Updated:** 2023-05-15 11:16 <br />
 
 -------------------------------------------
 
 ## Spreadsheet Overviews
+**Author note:** On 2023-04-10, President Biden ended the U.S. National Emergency Response to COVID-19, and on 2023-05-11, the Public Health Emergency Order expired. Due to the impending changes in reporting, this spreadsheet will no longer be updated past the end of April 2023.
+For the full collection of the hospital reports captured between 2020-04-02 and 2023-04-28 as part of the underlying data of this spreadsheet, please see the WMU ScholarWorks Michigan COVID-19 Hospital Data Collections: https://scholarworks.wmich.edu/michigan-covid-data-state-hospital/  
+**Michigan Health & Human Services Statement (2023-05-08):** This page is subject to change as a result of the end of the Public Health Emergency Order on 5/11/2023. Data will be updated as usual the week of 5/8/2023, and changes will go into effect the week of 5/15/2023. On May 11th 2023 the federal government will rescind the COVID-19 public health emergency. The Public Health Emergency ending will bring about several changes to the national response to the pandemic including discontinuing the requirement to report negative COVID-19 test results. The CDC is moving away from COVID-19 community levels in the absence of nationwide reporting of COVID-19 cases after the ending of the Public Health Emergency. In alignment with this transition, MDHHS will no longer provide weekly updates of the CDC's Community Levels. MDHHS will continue to update 7-day COVID case rates by county on a weekly basis. To access CDC resources for COVID-19 visit Coronavirus Disease 2019 (COVID-19) As of May 11, 2023 COVID testing volume and percent positivity will no longer be updated consistent with national strategies. While positive laboratory results will continue to be reportable in Michigan, negative test results will no longer be required to be reported. This means that overall COVID-19 testing volume and test % positivity will no longer be a core metric that can be reported on at the local, state, or national level. However, these data have had considerable limitations for some time since testing volume and percent positivity have never included over-the-counter (at-home) COVID-19 tests, which represent a substantial amount of the COVID-19 testing volume. Other core metrics, like Emergency Department visits, wastewater surveillance, case rates, hospitalization rates, and mortality rates are more sound metrics for measuring the burden and trends in COVID-19 epidemiology beyond the ending of the public health emergency.
 
 ### MichiganOverview_HospitalTracking.csv
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, under the link "Hospital", under the url https://www.michigan.gov/coronavirus/stats/data-about-places/statewide-available-ppe-and-bed-tracking (previously under the url https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html) <br />
 **Description:** Tabular data from the first three tables, Statewide Hospital Capacity Report for COVID-19, COVID-19 Metrics, and Statewide Hospital Avaiable PPE Tracking for COVID-19, contained within Statewide Available PPE and Bed Tracking <br />
-**Date range:** 2020-04-02 through 2023-04-19 <br />
+**Date range:** 2020-04-02 through 2023-04-28 <br />
 **Missing dates:** 2020-04-07, 2020-05-04, 2020-05-09, 2020-05-16, 2020-05-17, 2020-05-25, 2020-07-03, 2020-08-04, 2020-08-07, 2020-11-26, 2020-12-24, 2020-12-25, 2020-12-31, 2021-01-01, 2021-05-31, 2021-11-26, 2021-12-24, 2021-12-31, 2022-01-17, 2022-02-21, 2022-07-04, 2022-11-11, 2022-11-25, 2022-12-23, 2022-12-26, 2022-12-30, 2023-01-02 <br />
 
 **Website notes:** 2020-8-19: Changes have recently been made to the clinical variables shared on the MDHHS website. These changes were made to align with the new reporting requirements from the federal government. To better accommodate all users of this data, MDHHS is expanding the data provided from the previous clinical variables section to the information described in the new clinical variables section. Data users should carefully consider which variables meet their current or ongoing needs for information
